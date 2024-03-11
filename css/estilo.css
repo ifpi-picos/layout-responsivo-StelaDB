@@ -39,7 +39,7 @@ main div{
 }
 @media(max-width:768px){
     main{
-        height: auto:
+        height: auto;
     }
     main div {
         width: 45%;
