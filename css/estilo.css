@@ -23,16 +23,30 @@ footer{
 
 }
 main{
-    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 10px 0;
 }
 main div{
-    width: 33%;
+    width: 30%;
     background-color: rgb(202, 151, 250);
     height: 100%;
 }
 .dobro{
     flex-grow: 2;
+}
+@media(max-width:768px){
+    main{
+        height: auto:
+    }
+    main div {
+        width: 45%;
+    }
+}
+@media(max-width:576px){
+    main div {
+        width: 100%;
+    }
 }
