@@ -12,10 +12,10 @@ header, footer{
     height: 70px;
 }
 header{
-    background-color: #ac6dff;
+    background-color: #ff6dfd;
 }
 footer{
-    background-color: #ac6dff;
+    background-color: #ff6dfd;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,7 +34,7 @@ main{
 }
 main div{
     width: 30%;
-    background-color:rgb(136, 82, 187);
+    background-color:rgb(255, 170, 207);
     min-height: calc(100vh - 150px);
     padding: 10px       ;
 }
